@@ -13,7 +13,7 @@ public class NumGuess {
         System.out.println("Enter the number");
         int input = sc.nextInt();
         
-        int tries = 0;
+        int tries = 1;
 
         while(input != number){
             if (input > number){
